@@ -72,7 +72,6 @@ function getMean(numbers) {
  * @returns {number} the smallest of the numbers
  */
 function getMin(numbers) {
-  // 
   //return Math.min(...numbers);
   let inx = 0;
   let min = numbers[0];
