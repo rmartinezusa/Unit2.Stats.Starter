@@ -74,7 +74,7 @@ function getMean(numbers) {
 function getMin(numbers) {
   //return Math.min(...numbers);
   let inx = 0;
-  let min = numbers[0];
+  let min = Infinity;
   while (inx < numbers.length) {
     if(min > numbers[inx]){
       min = numbers[inx];
@@ -91,7 +91,7 @@ function getMin(numbers) {
 function getMax(numbers) {
   //return Math.max(...numbers);
   let inx = 0;
-  let max = numbers[0];
+  let max = -Infinity;
   while (inx < numbers.length) {
     if(max < numbers[inx]){
       max = numbers[inx];
